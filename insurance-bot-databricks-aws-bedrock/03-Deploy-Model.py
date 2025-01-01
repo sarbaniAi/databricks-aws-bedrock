@@ -63,8 +63,7 @@ auto_capture_config = {
 # COMMAND ----------
 
 model_name = f"{catalog}.{db}.chatbot_bedrock_west" 
-#sarbani_catalog_396548483691.db_bedrock_fin.chatbot_bedrock_model
-#sarbani_catalog_396548483691.db_bedrock_fin.chatbot_dblm_model
+
 
 # Get latest model from catalog
 client = MlflowClient()
